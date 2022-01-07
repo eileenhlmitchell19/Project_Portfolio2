@@ -48,11 +48,21 @@ color: #fff;
     left: -12vh;
 }
 
+.nav-title > h2{
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 20vh;
+    position:absolute;
+    top: -13vh;
+    right: 1vh;
+    color:black;
+}
+
 .ul-nav-row{
     justify-content: space-around;
     list-style-type: none;
     width:400px;
-    position:absolute;
+    position:relative;
     right: 5vh;
 }
 
@@ -157,8 +167,84 @@ color: #fff;
 
 }
 
+#homebrewimg{
+    
+    width:40vh;
+    height:auto; 
+    margin: 5vh;
+}
+
+#breweriesimg{
+    
+    width:40vh;
+    height:auto; 
+    margin: 5vh;
+}
+
+#questionsimg{
+    
+    width:40vh;
+    height:auto; 
+    margin: 5vh;
+}
+
+#scoreimg{
+    
+    width:40vh;
+    height:auto; 
+    margin: 5vh;
+}
+
+#openpromptimg{
+    
+    width:40vh;
+    height:auto; 
+    margin: 5vh;
+}
+
+#generatedimg{
+    
+    width:40vh;
+    height:auto; 
+    margin: 5vh;
+}
+
+#calendarimg1{
+    
+    width:40vh;
+    height:auto; 
+    margin: 5vh;
+}
+
+#calendarimg2{
+    
+    width:40vh;
+    height:auto; 
+    margin: 5vh;
+}
+
 @media screen and (max-width: 992px) {
     .header {
       background: #772014;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .ul-nav-row{
+        justify-content: space-around;
+        list-style-type: none;
+        width:350px;
+        position:relative;
+        left: 5vh;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .ul-nav-row{
+        justify-content: space-around;
+        list-style-type: none;
+        width:320px;
+        position:relative;
+        left: 5vh;
     }
   }
