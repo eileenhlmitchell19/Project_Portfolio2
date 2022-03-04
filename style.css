@@ -4,7 +4,7 @@ body {
 
 .header {
 background-color: red;
-color: #fff;
+color: rgb(0, 0, 0);
 box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 
 }
@@ -117,6 +117,7 @@ box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
     /* height: 3vh; */
     font-size: large;
     font-weight: bold;
+    color:rgb(247, 241, 241);
 }
 /* .box-2{
     width: 50vh;
@@ -163,6 +164,7 @@ box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
     font-weight:bolder;
     text-align: center;
     position:relative;
+    color: beige;
 }
 
 .aboutme-p{   
@@ -170,6 +172,8 @@ box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
     display:flex;
     flex-wrap: wrap;
     font-size:large;
+    color: beige;
+    font-weight: bold;
     
 }
 
@@ -178,6 +182,7 @@ box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
     width:80vh;
     height:auto; 
     margin: 5vh;
+
 }
 
 .mainitems{
@@ -268,10 +273,10 @@ box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
         right: 0px;
         bottom: 0px;
         left: 0px;
-        background-image:url(./Images/carpet1.jpg);
+        background-image:url(./Images/wood2.jpg);
         background-size: cover;
         background-attachment:fixed;
-        opacity: 0.5;
+        opacity: 0.9;
         height: 100%;
    
     }
@@ -292,7 +297,7 @@ box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
         background-image:url(./Images/granite.jpg);
         background-size: cover;
         background-attachment:fixed;
-        opacity: 0.7;
+        opacity: 0.9;
         height: 100%;
         
 }
