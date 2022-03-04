@@ -7,6 +7,9 @@ By: Eileen Mitchell
 -HTML
 -CSS
 
+## Link to Github Repository
+https://github.com/eileenhlmitchell19/Project_Portfolio2
+
 ## Link to Website URL
 https://eileenhlmitchell19.github.io/Project_Portfolio2/
 
